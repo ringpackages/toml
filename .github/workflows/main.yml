@@ -8,16 +8,14 @@ on:
     - '**.h'
     - '**/CMakeLists.txt'
     - '.github/workflows/**'
-    - '.gitmodules'
-    - 'src/tomlc17/**'
+    - 'src/c_src/**'
   pull_request:
     paths:
     - '**.c'
     - '**.h'
     - '**/CMakeLists.txt'
     - '.github/workflows/**'
-    - '.gitmodules'
-    - 'src/tomlc17/**'
+    - 'src/c_src/**'
 
 jobs:
   alpine:
